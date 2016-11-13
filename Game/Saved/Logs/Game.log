@@ -1,0 +1,876 @@
+﻿Log file open, 11/12/16 21:03:24
+LogInit:Display: Running engine for game: Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1320027948) SRandInit(-1320027948).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.100524
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.9.0(build = 292703) feature version = 0. Client runs version (prod = 1).1.9.0(build = 292703) feature version = 0
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.13-02.03.26:243][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.13-02.03.26:243][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.13-02.03.26:259][  0]LogInit: Computer: T440S
+[2016.11.13-02.03.26:259][  0]LogInit: User: edward3
+[2016.11.13-02.03.26:259][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.11.13-02.03.26:259][  0]LogInit: High frequency timer resolution =2.630628 MHz
+[2016.11.13-02.03.26:259][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2016.11.13-02.03.26:259][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.13-02.03.26:259][  0]LogMemory: Process Physical Memory: 259.00 MB used, 259.00 MB peak
+[2016.11.13-02.03.26:259][  0]LogMemory: Process Virtual Memory: 262.99 MB used, 262.99 MB peak
+[2016.11.13-02.03.26:259][  0]LogMemory: Physical Memory: 4956.51 MB used, 7878.88 MB total
+[2016.11.13-02.03.26:259][  0]LogMemory: Virtual Memory: 640.31 MB used, 134217728.00 MB total
+[2016.11.13-02.03.26:341][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.13-02.03.27:876][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(601e4ll)
+[2016.11.13-02.03.27:876][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.13-02.03.27:885][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2016.11.13-02.03.27:886][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2016.11.13-02.03.27:895][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.13-02.03.27:895][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.13-02.03.27:895][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.13-02.03.27:914][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.13-02.03.27:915][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.13-02.03.27:915][  0]LogWindows: EnumDisplayDevices:
+[2016.11.13-02.03.27:915][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2016.11.13-02.03.27:915][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2016.11.13-02.03.27:915][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2016.11.13-02.03.27:916][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2016.11.13-02.03.27:916][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2016.11.13-02.03.27:916][  0]LogD3D11RHI:   Driver Version: 10.18.10.3621 (internal:10.18.10.3621, unified:10.18.10.3621)
+[2016.11.13-02.03.27:916][  0]LogD3D11RHI:      Driver Date: 5-16-2014
+[2016.11.13-02.03.27:916][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2016.11.13-02.03.27:924][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.13-02.03.27:931][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2016.11.13-02.03.27:931][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../Users/edward3/Documents/VR_hack/Game/Intermediate/Shaders/WorkingDirectory/3680/).
+[2016.11.13-02.03.27:931][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/edward3/AppData/Local/Temp/UnrealShaderWorkingDir/735652C14C586D0F707ADE9FD1BB4F72/'.
+[2016.11.13-02.03.27:931][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.13-02.03.30:992][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.13-02.03.31:013][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.13-02.03.31:037][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.13-02.03.31:058][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.13-02.03.31:082][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.13-02.03.31:098][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.13-02.03.31:116][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.13-02.03.31:133][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.13-02.03.31:152][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.13-02.03.31:170][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.13-02.03.31:188][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.13-02.03.31:225][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.13-02.03.31:225][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.13-02.03.31:228][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.13-02.03.31:276][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.13-02.03.31:295][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.13-02.03.31:321][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.13-02.03.31:338][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.13-02.03.31:361][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.13-02.03.31:384][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.13-02.03.31:384][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.13-02.03.31:663][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.13-02.03.31:957][  0]LogDerivedDataCache: Loaded boot cache 0.29s 76MB C:/Users/edward3/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.13-02.03.31:957][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/edward3/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.11.13-02.03.31:957][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/edward3/Documents/VR_hack/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.13-02.03.31:958][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.13-02.03.31:958][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/edward3/Documents/VR_hack/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.13-02.03.31:958][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.13-02.03.32:003][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.13-02.03.32:017][  0]LogDerivedDataCache: Using Local data cache path C:/Users/edward3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.13-02.03.32:597][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.13-02.03.32:604][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.13-02.03.32:807][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.13-02.03.32:807][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.13-02.03.32:807][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.13-02.03.32:971][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.13-02.03.33:630][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: game, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 511517343
+[2016.11.13-02.03.33:682][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2016.11.13-02.03.33:741][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.051628 seconds
+[2016.11.13-02.03.33:753][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.11.13-02.03.33:754][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.11.13-02.03.33:754][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.13-02.03.33:775][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.13-02.03.34:389][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.13-02.03.34:390][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.13-02.03.37:335][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.13-02.03.37:449][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.13-02.03.38:188][  0]SourceControl: Info Source control is disabled
+[2016.11.13-02.03.38:191][  0]SourceControl: Info Source control is disabled
+[2016.11.13-02.03.38:224][  0]SourceControl: Info Source control is disabled
+[2016.11.13-02.03.38:265][  0]SourceControl: Info Source control is disabled
+[2016.11.13-02.03.39:051][  0]LogEngine: Initializing Engine...
+[2016.11.13-02.03.39:051][  0]LogHMD: Oculus plugin initialized. Version: 4.13.2-3172292+++UE4+Release-4.13, LibOVR: 1.9.0, SDK: 1.6.0, built Oct 24 2016, 14:31:11
+[2016.11.13-02.03.39:334][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.13-02.03.39:347][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.13-02.03.39:413][  0]LogInit: FAudioDevice initialized.
+[2016.11.13-02.03.39:522][  0]LogDerivedDataCache: Saved boot cache 0.11s 76MB C:/Users/edward3/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.13-02.03.39:534][  0]LogInit: Texture streaming: Enabled
+[2016.11.13-02.03.39:637][  0]LogInit: Transaction tracking system initialized
+[2016.11.13-02.03.39:724][  0]BlueprintLog: New page: Editor Load
+[2016.11.13-02.03.40:671][  0]LocalizationService: Info Localization service is disabled
+[2016.11.13-02.03.40:951][  0]LogConsoleResponse:Display: 
+[2016.11.13-02.03.41:268][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.13-02.03.41:268][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.13-02.03.42:030][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edward3/Documents/VR_hack/Game/Content/' took 0.02s
+[2016.11.13-02.03.42:049][  0]SourceControl: Info Source control is disabled
+[2016.11.13-02.03.42:057][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/StarterContent.upack)
+[2016.11.13-02.03.42:085][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.11.13-02.03.42:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.11.13-02.03.42:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.11.13-02.03.42:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.11.13-02.03.42:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.11.13-02.03.42:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.11.13-02.03.42:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.11.13-02.03.42:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.11.13-02.03.42:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.11.13-02.03.42:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.11.13-02.03.42:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.11.13-02.03.42:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.11.13-02.03.42:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.11.13-02.03.42:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.11.13-02.03.42:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.11.13-02.03.42:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.11.13-02.03.42:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.11.13-02.03.42:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.11.13-02.03.42:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Fire01.uasset"
+[2016.11.13-02.03.42:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.11.13-02.03.42:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.11.13-02.03.42:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.11.13-02.03.42:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Light01.uasset"
+[2016.11.13-02.03.42:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.11.13-02.03.42:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Light02.uasset"
+[2016.11.13-02.03.42:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.11.13-02.03.42:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.11.13-02.03.42:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.11.13-02.03.42:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.11.13-02.03.42:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.11.13-02.03.42:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.11.13-02.03.42:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.11.13-02.03.42:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.11.13-02.03.42:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.11.13-02.03.42:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Steam01.uasset"
+[2016.11.13-02.03.42:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.11.13-02.03.42:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.11.13-02.03.42:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.11.13-02.03.42:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.11.13-02.03.42:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.11.13-02.03.42:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.11.13-02.03.42:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.11.13-02.03.42:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.11.13-02.03.42:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.11.13-02.03.42:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.11.13-02.03.42:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.11.13-02.03.42:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.11.13-02.03.42:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.11.13-02.03.42:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.11.13-02.03.42:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.11.13-02.03.42:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.11.13-02.03.42:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.11.13-02.03.42:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.11.13-02.03.42:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.11.13-02.03.42:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.11.13-02.03.42:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Maps/StarterMap.umap"
+[2016.11.13-02.03.42:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.11.13-02.03.42:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.11.13-02.03.42:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.11.13-02.03.42:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.11.13-02.03.42:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.11.13-02.03.42:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.11.13-02.03.42:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.11.13-02.03.42:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.11.13-02.03.42:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.11.13-02.03.42:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.11.13-02.03.42:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.11.13-02.03.42:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.11.13-02.03.42:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.11.13-02.03.42:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.11.13-02.03.42:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.11.13-02.03.42:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.11.13-02.03.42:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.11.13-02.03.42:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.11.13-02.03.42:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.11.13-02.03.42:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.11.13-02.03.42:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.11.13-02.03.42:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.11.13-02.03.42:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.11.13-02.03.42:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.11.13-02.03.42:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.11.13-02.03.42:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.11.13-02.03.42:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.11.13-02.03.42:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.11.13-02.03.42:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.11.13-02.03.42:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.11.13-02.03.42:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.11.13-02.03.42:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.11.13-02.03.42:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.11.13-02.03.42:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.11.13-02.03.42:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.11.13-02.03.42:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.11.13-02.03.42:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.11.13-02.03.42:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.11.13-02.03.43:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.11.13-02.03.43:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.11.13-02.03.43:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.11.13-02.03.43:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.11.13-02.03.43:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.11.13-02.03.43:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.11.13-02.03.43:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.11.13-02.03.43:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.11.13-02.03.43:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.11.13-02.03.43:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.11.13-02.03.43:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.11.13-02.03.43:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.11.13-02.03.43:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.11.13-02.03.43:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.11.13-02.03.43:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.11.13-02.03.43:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.11.13-02.03.43:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.11.13-02.03.43:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.11.13-02.03.43:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.11.13-02.03.43:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.11.13-02.03.43:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.11.13-02.03.43:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.11.13-02.03.43:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.11.13-02.03.43:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.11.13-02.03.43:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.11.13-02.03.43:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.11.13-02.03.43:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_Door.uasset"
+[2016.11.13-02.03.43:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.11.13-02.03.43:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.11.13-02.03.43:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.11.13-02.03.43:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.11.13-02.03.43:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.11.13-02.03.43:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.11.13-02.03.43:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.11.13-02.03.43:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.11.13-02.03.43:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.11.13-02.03.43:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.11.13-02.03.43:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.11.13-02.03.43:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.11.13-02.03.43:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.11.13-02.03.43:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.11.13-02.03.43:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.11.13-02.03.43:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.11.13-02.03.43:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.11.13-02.03.43:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.11.13-02.03.43:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.11.13-02.03.43:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.11.13-02.03.43:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.11.13-02.03.43:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.11.13-02.03.43:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.11.13-02.03.43:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.11.13-02.03.43:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.11.13-02.03.43:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.11.13-02.03.43:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.11.13-02.03.43:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.11.13-02.03.43:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.11.13-02.03.43:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.11.13-02.03.43:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.11.13-02.03.43:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.11.13-02.03.43:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.11.13-02.03.43:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.11.13-02.03.43:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.11.13-02.03.43:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.11.13-02.03.43:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.11.13-02.03.43:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.11.13-02.03.43:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.11.13-02.03.43:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.11.13-02.03.43:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.11.13-02.03.43:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.11.13-02.03.43:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.11.13-02.03.43:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.11.13-02.03.43:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.11.13-02.03.43:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.11.13-02.03.43:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.11.13-02.03.43:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.11.13-02.03.44:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.11.13-02.03.44:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.11.13-02.03.44:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.11.13-02.03.44:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.11.13-02.03.44:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.11.13-02.03.44:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.11.13-02.03.44:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.11.13-02.03.44:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.11.13-02.03.44:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.11.13-02.03.44:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.11.13-02.03.44:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.11.13-02.03.44:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.11.13-02.03.44:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.11.13-02.03.44:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.11.13-02.03.44:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.11.13-02.03.44:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.11.13-02.03.44:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.11.13-02.03.44:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.11.13-02.03.44:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.11.13-02.03.44:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.11.13-02.03.44:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.11.13-02.03.44:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.11.13-02.03.44:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.11.13-02.03.45:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.11.13-02.03.45:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.11.13-02.03.45:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.11.13-02.03.45:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.11.13-02.03.45:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.11.13-02.03.45:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.11.13-02.03.45:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.11.13-02.03.45:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.11.13-02.03.45:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.11.13-02.03.45:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.11.13-02.03.45:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.11.13-02.03.45:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.11.13-02.03.45:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.11.13-02.03.45:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.11.13-02.03.45:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.11.13-02.03.45:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.11.13-02.03.45:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.11.13-02.03.45:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.11.13-02.03.45:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.11.13-02.03.45:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.11.13-02.03.45:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.11.13-02.03.45:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.11.13-02.03.46:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.11.13-02.03.46:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.11.13-02.03.46:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.11.13-02.03.47:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.11.13-02.03.47:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.11.13-02.03.47:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.11.13-02.03.47:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.11.13-02.03.48:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.11.13-02.03.48:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.11.13-02.03.48:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.11.13-02.03.48:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.11.13-02.03.48:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.11.13-02.03.49:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.11.13-02.03.49:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.11.13-02.03.49:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.11.13-02.03.49:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.11.13-02.03.50:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.11.13-02.03.50:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.11.13-02.03.50:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.11.13-02.03.51:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.11.13-02.03.51:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.11.13-02.03.52:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.11.13-02.03.52:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.11.13-02.03.53:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.11.13-02.03.53:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.11.13-02.03.54:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.11.13-02.03.54:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.11.13-02.03.54:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.11.13-02.03.54:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.11.13-02.03.54:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.11.13-02.03.54:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.11.13-02.03.54:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.11.13-02.03.54:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.11.13-02.03.54:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.11.13-02.03.54:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.11.13-02.03.54:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.11.13-02.03.54:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.11.13-02.03.54:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.11.13-02.03.54:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.11.13-02.03.54:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.11.13-02.03.54:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.11.13-02.03.54:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.11.13-02.03.54:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.11.13-02.03.54:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.11.13-02.03.54:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.11.13-02.03.54:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.11.13-02.03.54:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.11.13-02.03.54:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.11.13-02.03.54:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.11.13-02.03.54:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.11.13-02.03.54:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.11.13-02.03.54:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.11.13-02.03.54:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.11.13-02.03.54:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.11.13-02.03.54:999][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.11.13-02.03.56:132][  0]LogSavePackage: Save=23.80ms
+[2016.11.13-02.03.56:132][  0]LogSavePackage: Moving '../../../../../../Users/edward3/Documents/VR_hack/Game/Saved/Floor_400x4005C2D6D6F46A9609B37ABA69AEB9F9211.tmp' to '../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.11.13-02.03.56:139][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/edward3/Documents/VR_hack/Game/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.11.13-02.03.56:140][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.11.13-02.03.56:142][  0]Cmd: MAP LOAD FILE="../../../../../../Users/edward3/Documents/VR_hack/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.13-02.03.56:142][  0]LightingResults: New page: Lighting Build
+[2016.11.13-02.03.56:150][  0]MapCheck: New page: Map Check
+[2016.11.13-02.03.56:150][  0]LightingResults: New page: Lighting Build
+[2016.11.13-02.03.57:371][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.11.13-02.03.58:570][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.11.13-02.03.59:532][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.11.13-02.04.00:565][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.11.13-02.04.01:523][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.11.13-02.04.03:056][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.11.13-02.04.04:671][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.11.13-02.04.05:733][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.11.13-02.04.05:786][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.11.13-02.04.06:142][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.11.13-02.04.06:510][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.11.13-02.04.06:855][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.11.13-02.04.07:202][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.11.13-02.04.07:727][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.11.13-02.04.08:188][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.11.13-02.04.08:554][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.11.13-02.04.08:559][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2016.11.13-02.04.08:591][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.11.13-02.04.09:035][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.11.13-02.04.09:445][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.11.13-02.04.09:869][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.11.13-02.04.10:276][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.11.13-02.04.10:896][  0]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.11.13-02.04.11:533][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2016.11.13-02.04.12:051][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2016.11.13-02.04.12:169][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2016.11.13-02.04.12:283][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2016.11.13-02.04.12:401][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2016.11.13-02.04.12:517][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
+[2016.11.13-02.04.12:628][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2016.11.13-02.04.12:639][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2016.11.13-02.04.12:761][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2016.11.13-02.04.13:062][  0]LogTexture:Display: Building textures: T_FPGun_N (BC5)
+[2016.11.13-02.04.14:105][  0]LogTexture:Display: Building textures: T_FPGun_M (AutoDXT)
+[2016.11.13-02.04.15:480][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.11.13-02.04.16:556][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.11.13-02.04.25:245][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.11.13-02.04.26:295][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.11.13-02.04.35:168][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.11.13-02.04.44:789][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.11.13-02.04.54:081][  0]LogTexture:Display: Building textures: UE4_LOGO_CARD (AutoDXT)
+[2016.11.13-02.04.54:422][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.11.13-02.04.55:273][  0]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2016.11.13-02.04.55:640][  0]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2016.11.13-02.04.56:757][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.11.13-02.04.57:767][  0]LogTexture:Display: Building textures: FirstPersonCrosshair (AutoDXT)
+[2016.11.13-02.04.57:824][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.13-02.04.57:884][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.13-02.04.57:891][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.13-02.04.58:043][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 151.699ms to complete.
+[2016.11.13-02.04.58:043][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 61.902
+[2016.11.13-02.04.58:275][  0]LogCollectionManager: Loaded 0 collections in 0.004475 seconds
+[2016.11.13-02.04.58:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edward3/Documents/VR_hack/Game/Saved/Collections/' took 0.01s
+[2016.11.13-02.04.58:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edward3/Documents/VR_hack/Game/Content/Developers/edward3/Collections/' took 0.01s
+[2016.11.13-02.04.58:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edward3/Documents/VR_hack/Game/Content/Collections/' took 0.01s
+[2016.11.13-02.04.58:346][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.11.13-02.04.58:367][  0]LogContentBrowser: Native class hierarchy populated in 0.0196 seconds. Added 2141 classes and 415 folders.
+[2016.11.13-02.04.58:382][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.13-02.04.58:382][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.13-02.04.58:383][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0010 seconds. Added 12 classes and 0 folders.
+[2016.11.13-02.04.58:397][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.11.13-02.04.58:589][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.11.13-02.04.58:673][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.11.13-02.04.58:737][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.13-02.04.58:781][  0]LogTexture:Display: Building textures: Blueprint_64x (BGRA8)
+[2016.11.13-02.04.58:783][  0]LogTexture:Display: Building textures: icon_Editor_Preferences_General_40x (BGRA8)
+[2016.11.13-02.04.58:785][  0]LogTexture:Display: Building textures: Paper2DSprite_TutorialIcon (BGRA8)
+[2016.11.13-02.04.58:787][  0]LogTexture:Display: Building textures: icon_ShowSkeletalMeshes_40x (BGRA8)
+[2016.11.13-02.04.58:789][  0]LogTexture:Display: Building textures: Landscape (BGRA8)
+[2016.11.13-02.04.58:792][  0]LogTexture:Display: Building textures: Foliage (BGRA8)
+[2016.11.13-02.04.58:841][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.11.13-02.04.58:842][  0]LogLoad: (Engine Initialization) Total time: 95.62 seconds
+[2016.11.13-02.04.58:842][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.48 seconds
+[2016.11.13-02.04.58:842][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.13-02.04.58:842][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.13-02.04.58:854][  0]LogOcInput: OculusInput pre-init called
+[2016.11.13-02.04.58:877][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.9.0
+[2016.11.13-02.04.58:912][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.13-02.04.58:944][  0]LogTexture:Display: Building textures: icon_tab_Levels_40x (BGRA8)
+[2016.11.13-02.04.59:027][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
+[2016.11.13-02.04.59:158][  0]LogRenderer: Reallocating scene render targets to support 1004x484 (Frame:3).
+[2016.11.13-02.05.00:323][  3]LogAssetRegistry: Asset discovery search completed in 86.6638 seconds
+[2016.11.13-02.05.00:323][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.13-02.05.00:323][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
+[2016.11.13-02.07.14:381][465]LogTexture:Display: Building textures: CameraActor_64x (BGRA8)
+[2016.11.13-02.07.14:400][465]LogTexture:Display: Building textures: BlueprintInterface_64x (BGRA8)
+[2016.11.13-02.07.14:410][465]LogTexture:Display: Building textures: BlueprintMacroLibrary_64x (BGRA8)
+[2016.11.13-02.07.14:686][465]LogTexture:Display: Building textures: IOS (BGRA8)
+[2016.11.13-02.07.14:706][465]LogTexture:Display: Building textures: android_Icon (BGRA8)
+[2016.11.13-02.07.14:713][465]LogTexture:Display: Building textures: Paper2DFlipbook_TutorialIcon (BGRA8)
+[2016.11.13-02.07.31:985][778]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.11.13-02.07.33:132][795]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.11.13-02.07.33:869][805]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.11.13-02.08.10:206][423]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.11.13-02.08.45:457][201]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.11.13-02.08.46:949][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.13-02.09.11:217][716]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.13-02.09.11:304][716]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2016.11.13-02.09.11:329][716]LogEditor: Converted: Floor to Floor
+[2016.11.13-02.09.11:333][716]EditorErrors: New page: Actor Reattachment
+[2016.11.13-02.09.17:854][821]LogEditorViewport: Clicking on Actor (LMB): InteractiveFoliageActor (Floor)
+[2016.11.13-02.09.22:589][895]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-02.09.22:591][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.13-02.09.22:607][895]PIE: New page: PIE session: FirstPersonExampleMap (Nov 12, 2016, 4:09:22 PM)
+[2016.11.13-02.09.22:608][895]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.11.13-02.09.22:685][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076998s)
+[2016.11.13-02.09.22:687][895]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.13-02.09.22:689][895]LogPlayLevel: PIE: World Init took: (0.003389s)
+[2016.11.13-02.09.22:689][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.081265s)
+[2016.11.13-02.09.22:734][895]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.13-02.09.22:752][895]LogInit: FAudioDevice initialized.
+[2016.11.13-02.09.22:819][895]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.11.13-02.09.22:835][895]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.11.12-21.09.22
+[2016.11.13-02.09.22:840][895]LogWorld: Bringing up level for play took: 0.013053
+[2016.11.13-02.09.22:860][895]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2016.11.13-02.09.22:861][895]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.13-02.09.22:861][895]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.13-02.09.22:861][895]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.13-02.09.22:864][895]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.13-02.09.22:864][895]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.447
+[2016.11.13-02.09.22:864][895]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-02.09.34:020][132]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-02.09.34:174][132]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-02.09.35:139][149]Cmd: SELECT NONE
+[2016.11.13-02.09.39:061][219]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.39:061][219]LogEditorTransaction: Undo Select None
+[2016.11.13-02.09.39:377][222]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.39:377][222]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.13-02.09.39:531][225]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.39:531][225]LogEditorTransaction: Undo Convert Actors
+[2016.11.13-02.09.39:758][230]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.39:758][230]LogEditorTransaction: Undo Edit Can be Damaged
+[2016.11.13-02.09.39:990][234]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.39:990][234]LogEditorTransaction: Undo Edit Generate Overlap Events During Level Streaming
+[2016.11.13-02.09.40:288][239]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.40:288][239]LogEditorTransaction: Undo Edit Generate Overlap Events During Level Streaming
+[2016.11.13-02.09.40:475][241]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.40:476][241]LogEditorTransaction: Undo Edit Spawn Collision Handling Method
+[2016.11.13-02.09.41:412][259]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.41:412][259]LogEditorTransaction: Undo Edit Cast Shadow
+[2016.11.13-02.09.41:637][263]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.41:637][263]LogEditorTransaction: Undo Edit Cast Shadow
+[2016.11.13-02.09.41:858][267]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.41:858][267]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.13-02.09.42:032][268]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.42:032][268]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2016.11.13-02.09.42:191][270]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.42:191][270]LogEditorTransaction: Undo Edit Directional Light Actor
+[2016.11.13-02.09.42:389][274]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.42:389][274]LogEditorTransaction: Undo Edit Sun Brightness
+[2016.11.13-02.09.42:583][277]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.42:583][277]LogEditorTransaction: Undo Edit Sun Brightness
+[2016.11.13-02.09.42:774][280]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.42:774][280]LogEditorTransaction: Undo Edit Stars Brightness
+[2016.11.13-02.09.42:978][283]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.42:978][283]LogEditorTransaction: Undo Edit Cloud Opacity
+[2016.11.13-02.09.43:181][284]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.43:181][284]LogEditorTransaction: Undo Edit Cloud Speed
+[2016.11.13-02.09.43:390][289]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.43:390][289]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.13-02.09.43:600][290]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.43:600][290]LogEditorTransaction: Undo Edit Cloud Opacity
+[2016.11.13-02.09.43:736][293]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.43:736][293]LogEditorTransaction: Undo Edit Sun Brightness
+[2016.11.13-02.09.43:954][297]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.43:954][297]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.13-02.09.44:124][298]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.44:124][298]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.13-02.09.44:322][303]Cmd: TRANSACTION UNDO
+[2016.11.13-02.09.44:322][303]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.13-02.09.47:306][356]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-02.09.47:307][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.13-02.09.47:307][356]PIE: New page: PIE session: FirstPersonExampleMap (Nov 12, 2016, 4:09:47 PM)
+[2016.11.13-02.09.47:307][356]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.11.13-02.09.47:390][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083093s)
+[2016.11.13-02.09.47:405][356]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.13-02.09.47:407][356]LogPlayLevel: PIE: World Init took: (0.015989s)
+[2016.11.13-02.09.47:407][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.099992s)
+[2016.11.13-02.09.47:470][356]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.13-02.09.47:492][356]LogInit: FAudioDevice initialized.
+[2016.11.13-02.09.47:530][356]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.11.13-02.09.47:542][356]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.11.12-21.09.47
+[2016.11.13-02.09.47:543][356]LogWorld: Bringing up level for play took: 0.012268
+[2016.11.13-02.09.47:546][356]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.13-02.09.47:546][356]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.13-02.09.47:546][356]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.13-02.09.47:547][356]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.13-02.09.47:547][356]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.129
+[2016.11.13-02.09.47:548][356]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-02.10.36:641][307]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1270.533 Y=-1699.389 Z=320.214] for [FirstPersonProjectile_C]
+[2016.11.13-02.10.36:864][311]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1187.055 Y=-1603.921 Z=287.774] for [FirstPersonProjectile_C]
+[2016.11.13-02.10.43:533][440]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1061.438 Y=-126.981 Z=287.445] for [FirstPersonProjectile_C]
+[2016.11.13-02.10.43:746][444]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=935.339 Y=-158.509 Z=286.228] for [FirstPersonProjectile_C]
+[2016.11.13-02.10.51:774][599]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-02.10.51:869][599]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-02.12.01:450][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.13-02.12.03:789][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.13-02.12.12:121][903]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.11.13-02.12.13:081][917]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.11.13-02.12.21:629][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2016.11.13-02.12.24:133][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.13-02.12.29:280][150]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2016.11.13-02.12.29:621][153]LogEditorViewport: Clicking on Component (LMB): DirectionalLightComponent (LightComponent0)
+[2016.11.13-02.12.36:887][264]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.11.13-02.12.40:412][303]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.11.13-02.12.41:111][311]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.11.13-02.12.45:611][364]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.11.13-02.12.46:454][374]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.11.13-02.12.46:863][379]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.11.13-02.13.02:101][559]LogUObjectGlobals:Warning: Failed to find object 'Object None.EditorViewports'
+[2016.11.13-02.15.29:920][256]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2016.11.13-02.15.29:920][256]LogSynthBenchmark:Display: ===============
+[2016.11.13-02.15.29:920][256]LogSynthBenchmark:Display: Main Processor:
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:          ... 0.048320 s/Run 'RayIntersect'
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:          ... 0.039928 s/Run 'Fractal'
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display: 
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   CPU Perf Index 0: 53.0 (weight 1.00)
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   CPU Perf Index 1: 71.6 (weight 1.50)
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:  
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display: Graphics:
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics Family'
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   Vendor Id: 0x8086
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   Device Id: 0xa16
+[2016.11.13-02.15.30:009][256]LogSynthBenchmark:Display:   GPU Memory: 0/0/1792 MB
+[2016.11.13-02.15.30:071][256]LogSynthBenchmark:Display:   GPU first test: 0.03s
+[2016.11.13-02.15.30:071][256]LogSynthBenchmark:Display:          ... 0.469 GigaPix/s, Confidence=89% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2016.11.13-02.15.30:071][256]LogSynthBenchmark:Display:          ... 0.354 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2016.11.13-02.15.30:071][256]LogSynthBenchmark:Display:          ... 0.336 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2016.11.13-02.15.30:071][256]LogSynthBenchmark:Display:          ... 1.137 GigaPix/s, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2016.11.13-02.15.30:071][256]LogSynthBenchmark:Display:          ... 0.101 GigaPix/s, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:   GPU second test: 0.15s
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:          ... 0.659 GigaPix/s, Confidence=89% 'ALUHeavyNoise' (likely to be inaccurate)
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:          ... 0.444 GigaPix/s, Confidence=89% 'TexHeavy' (likely to be inaccurate)
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:          ... 0.418 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:          ... 2.881 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:          ... 0.107 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:          ... 0.659 GigaPix/s, Confidence=89% 'ALUHeavyNoise'
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:          ... 0.444 GigaPix/s, Confidence=89% 'TexHeavy'
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:          ... 0.418 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:          ... 2.881 GigaPix/s, Confidence=100% 'FillOnly'
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:          ... 0.107 GigaPix/s, Confidence=100% 'Bandwidth'
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display: 
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:   GPU Perf Index 0: 14.3 (weight 1.00)
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:   GPU Perf Index 1: 6.0 (weight 0.10)
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:   GPU Perf Index 2: 10.9 (weight 0.10)
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:   GPU Perf Index 3: 11.3 (weight 3.00)
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:   GPU Perf Index 4: 9.9 (weight 1.00)
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:   CPUIndex: 64.2
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:   GPUIndex: 11.5
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display: 
+[2016.11.13-02.15.30:244][256]LogSynthBenchmark:Display:          ... Total Time: 0.324139 sec
+[2016.11.13-02.15.30:764][258]LogRenderer: Reallocating scene render targets to support 1004x484 (Frame:11086).
+[2016.11.13-02.15.30:859][262]LogContentStreaming: Texture pool size now 400 MB
+[2016.11.13-02.16.56:556][832]LogSavePackage: Save=4833.73ms
+[2016.11.13-02.16.56:556][832]LogSavePackage: Moving '../../../../../../Users/edward3/Documents/VR_hack/Game/Saved/FirstPersonExampleMap297FCB11411841B2110A06AEFCBC119E.tmp' to '../../../../../../Users/edward3/Documents/VR_hack/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.11.13-02.16.56:564][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/edward3/Documents/VR_hack/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.11.13-02.16.56:579][832]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 5.098
+[2016.11.13-02.16.56:582][832]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.13-02.16.56:609][832]LightingResults: New page: Lighting Build
+[2016.11.13-02.16.56:612][832]LoadErrors: New page: Loading map: Template_Default.umap
+[2016.11.13-02.16.56:614][832]MapCheck: New page: Map Check
+[2016.11.13-02.16.56:614][832]LightingResults: New page: Lighting Build
+[2016.11.13-02.16.56:734][832]LogAIModule: Creating AISystem for world Untitled_1
+[2016.11.13-02.16.56:788][832]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.13-02.16.56:800][832]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.13-02.16.57:019][832]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 218.371ms to complete.
+[2016.11.13-02.16.57:019][832]LogFileHelpers: Loading map 'Template_Default' took 0.439
+[2016.11.13-02.17.30:108][655]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.11.13-02.18.14:979][765]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.11.13-02.18.15:604][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.13-02.18.41:438][ 88]Running C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/edward3/Documents/VR_hack/Game/Game.uproject" -game -rocket -progress
+[2016.11.13-02.18.41:990][ 88]Discovering modules, targets and source code for project...
+[2016.11.13-02.18.47:513][ 88]LogHotReload: Recompiling module Game...
+[2016.11.13-02.18.47:517][ 88]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.11.13-02.18.47:554][ 88]Recompiling Game...
+[2016.11.13-02.18.47:554][ 88]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe Game -Module Game Win64 Development -editorrecompile -canskiplink "C:/Users/edward3/Documents/VR_hack/Game/Game.uproject"  -2015]
+[2016.11.13-02.20.08:013][ 88]Performing full C++ include scan (hot reloading a new target)
+Creating makefile for hot reloading Game (no existing makefile)
+Compiling game modules for hot reload
+Parsing headers for GameEditor
+  Running UnrealHeaderTool "C:\Users\edward3\Documents\VR_hack\Game\Game.uproject" "C:\Users\edward3\Documents\VR_hack\Game\Intermediate\Build\Win64\GameEditor\Development\GameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for GameEditor in 4.6205449 seconds
+Performing 7 actions (2 in parallel)
+[2/7] Resource PCLaunch.rc
+PCH.Game.h.cpp
+[3/7] Resource ModuleVersionResource.rc.inl
+MyCharacter.cpp
+Game.cpp
+C:\Users\edward3\Documents\VR_hack\Game\Source\Game\MyCharacter.cpp(30): warning C4458: declaration of 'InputComponent' hides class member
+C:\Program Files (x86)\Epic Games\4.13\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(316): note: see declaration of 'AActor::InputComponent'
+Game.generated.cpp
+[7/7] Link UE4Editor-Game.dll
+LINK : fatal error LNK1181: cannot open input file 'delayimp.lib'
+ERROR: UBT ERROR: Failed to produce item: C:\Users\edward3\Documents\VR_hack\Game\Binaries\Win64\UE4Editor-Game.dll
+Total build time: 80.24 seconds
+
+[2016.11.13-02.20.08:013][ 88]CompilerResultsLog: New page: Compilation - Nov 12, 2016, 4:20:08 PM
+[2016.11.13-02.20.08:013][ 88]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2016.11.13-02.20.08:013][ 88]CompilerResultsLog: Info Creating makefile for hot reloading Game (no existing makefile)
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info Parsing headers for GameEditor
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\edward3\Documents\VR_hack\Game\Game.uproject" "C:\Users\edward3\Documents\VR_hack\Game\Intermediate\Build\Win64\GameEditor\Development\GameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info Reflection code generated for GameEditor in 4.6205449 seconds
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info Performing 7 actions (2 in parallel)
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info [2/7] Resource PCLaunch.rc
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info PCH.Game.h.cpp
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info [3/7] Resource ModuleVersionResource.rc.inl
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info MyCharacter.cpp
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info Game.cpp
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog:Error: Error C:\Users\edward3\Documents\VR_hack\Game\Source\Game\MyCharacter.cpp(30) : warning C4458: declaration of 'InputComponent' hides class member
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.13\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(316): note: see declaration of 'AActor::InputComponent'
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info Game.generated.cpp
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info [7/7] Link UE4Editor-Game.dll
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog:Error: Error LINK : fatal error LNK1181: cannot open input file 'delayimp.lib'
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\edward3\Documents\VR_hack\Game\Binaries\Win64\UE4Editor-Game.dll
+[2016.11.13-02.20.08:014][ 88]CompilerResultsLog: Info Total build time: 80.24 seconds
+[2016.11.13-02.20.08:014][ 88]LogMainFrame: MainFrame: Module compiling took 80.498 seconds
+[2016.11.13-02.22.14:663][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.13-02.22.24:152][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.13-02.22.28:090][347]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.11.13-02.22.29:401][407]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2016.11.13-02.22.30:006][437]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2016.11.13-02.22.39:845][889]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Gameplay/Framework/Pawn/Character/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2016.11.13-02.24.34:111][404]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Gameplay/Framework/Pawn/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2016.11.13-02.25.37:265][566]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2016.11.13-02.25.57:002][167]LogTexture:Display: Building textures: WhiteSquareTexture (AutoDXT)
+[2016.11.13-02.25.57:024][167]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2016.11.13-02.25.57:107][167]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2016.11.13-02.25.57:165][167]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2016.11.13-02.25.57:218][167]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2016.11.13-02.25.57:268][167]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2016.11.13-02.25.57:329][167]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2016.11.13-02.25.57:360][167]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2016.11.13-02.25.57:398][167]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2016.11.13-02.25.57:439][167]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2016.11.13-02.25.57:490][167]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2016.11.13-02.25.57:533][167]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2016.11.13-02.25.57:582][167]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2016.11.13-02.25.57:620][167]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.11.13-02.25.57:626][167]LogTexture:Display: Building textures: LandscapeThumbnailWeightmap (BGRA8)
+[2016.11.13-02.25.57:629][167]LogTexture:Display: Building textures: LandscapeThumbnailHeightmap (BGRA8)
+[2016.11.13-02.31.32:131][868]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(801c4ll)
+[2016.11.13-02.31.52:340][997]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(801c4ll)
+[2016.11.13-02.32.00:135][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.13-02.33.10:454][977]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(801c4ll)
+[2016.11.13-02.34.04:734][291]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(801c4ll)
+[2016.11.13-02.34.32:369][923]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.13-02.34.32:703][932]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.13-02.35.28:439][442]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2016.11.13-02.35.28:439][442]LogScriptCore:Warning: 
+[2016.11.1
